@@ -1,0 +1,319 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1EA0CFF8-C123-4749-AD5C-D8BF10530424}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>OrderManage</RootNamespace>
+    <AssemblyName>OrderManage</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>20161207095944789_easyicon_net_128.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AuthorizationSet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AuthorizationSet.Designer.cs">
+      <DependentUpon>AuthorizationSet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BalanceSet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BalanceSet.Designer.cs">
+      <DependentUpon>BalanceSet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CaptureImageTool\CaptureImageTool.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CaptureImageTool\CaptureImageTool.Designer.cs">
+      <DependentUpon>CaptureImageTool.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CaptureImageTool\CaptureImageToolColorTable.cs" />
+    <Compile Include="CaptureImageTool\ColorLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CaptureImageTool\ColorSelector.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CaptureImageTool\ColorSelector.Designer.cs">
+      <DependentUpon>ColorSelector.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CaptureImageTool\ControlPaintEx.cs" />
+    <Compile Include="CaptureImageTool\DrawStyle.cs" />
+    <Compile Include="CaptureImageTool\DrawTextData.cs" />
+    <Compile Include="CaptureImageTool\DrawToolsControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CaptureImageTool\DrawToolsControl.designer.cs">
+      <DependentUpon>DrawToolsControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CaptureImageTool\DrawToolsDockStyle.cs" />
+    <Compile Include="CaptureImageTool\GraphicsPathHelper.cs" />
+    <Compile Include="CaptureImageTool\NativeMethods.cs" />
+    <Compile Include="CaptureImageTool\OperateManager.cs" />
+    <Compile Include="CaptureImageTool\OperateObject.cs" />
+    <Compile Include="CaptureImageTool\OperateType.cs" />
+    <Compile Include="CaptureImageTool\RegionHelper.cs" />
+    <Compile Include="CaptureImageTool\RoundStyle.cs" />
+    <Compile Include="CaptureImageTool\SizeGrip.cs" />
+    <Compile Include="CaptureImageTool\ToolStripRendererEx.cs" />
+    <Compile Include="CursorManager.cs" />
+    <Compile Include="ExpressReceiveManage\ExpressAuthorization.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExpressReceiveManage\ExpressAuthorization.Designer.cs">
+      <DependentUpon>ExpressAuthorization.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExpressReceiveManage\ExpressCompanySet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExpressReceiveManage\ExpressCompanySet.Designer.cs">
+      <DependentUpon>ExpressCompanySet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExpressReceiveManage\ExpressInput.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExpressReceiveManage\ExpressInput.Designer.cs">
+      <DependentUpon>ExpressInput.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExpressRecord.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExpressRecord.Designer.cs">
+      <DependentUpon>ExpressRecord.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExpressReceiveManage\ExpressReceive.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExpressReceiveManage\ExpressReceive.Designer.cs">
+      <DependentUpon>ExpressReceive.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HotKey.cs" />
+    <Compile Include="Input.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Input.Designer.cs">
+      <DependentUpon>Input.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KdApiOrderDistinguish.cs" />
+    <Compile Include="KdApiSearchDemo.cs" />
+    <Compile Include="login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="login.Designer.cs">
+      <DependentUpon>login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Register.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Register.Designer.cs">
+      <DependentUpon>Register.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RepeatShow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RepeatShow.Designer.cs">
+      <DependentUpon>RepeatShow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExpressReceiveManage\ResionInput.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExpressReceiveManage\ResionInput.Designer.cs">
+      <DependentUpon>ResionInput.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SearchExpressNo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchExpressNo.Designer.cs">
+      <DependentUpon>SearchExpressNo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShowPicture.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShowPicture.Designer.cs">
+      <DependentUpon>ShowPicture.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShowRepeatItem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShowRepeatItem.Designer.cs">
+      <DependentUpon>ShowRepeatItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SqlConn.cs" />
+    <Compile Include="UpdatePicPathUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdatePicPathUI.Designer.cs">
+      <DependentUpon>UpdatePicPathUI.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AuthorizationSet.resx">
+      <DependentUpon>AuthorizationSet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BalanceSet.resx">
+      <DependentUpon>BalanceSet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CaptureImageTool\CaptureImageTool.resx">
+      <DependentUpon>CaptureImageTool.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CaptureImageTool\ColorSelector.resx">
+      <DependentUpon>ColorSelector.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CaptureImageTool\DrawToolsControl.resx">
+      <DependentUpon>DrawToolsControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExpressReceiveManage\ExpressAuthorization.resx">
+      <DependentUpon>ExpressAuthorization.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExpressReceiveManage\ExpressCompanySet.resx">
+      <DependentUpon>ExpressCompanySet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExpressReceiveManage\ExpressInput.resx">
+      <DependentUpon>ExpressInput.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExpressRecord.resx">
+      <DependentUpon>ExpressRecord.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExpressReceiveManage\ExpressReceive.resx">
+      <DependentUpon>ExpressReceive.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Input.resx">
+      <DependentUpon>Input.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="login.resx">
+      <DependentUpon>login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Register.resx">
+      <DependentUpon>Register.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepeatShow.resx">
+      <DependentUpon>RepeatShow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExpressReceiveManage\ResionInput.resx">
+      <DependentUpon>ResionInput.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SearchExpressNo.resx">
+      <DependentUpon>SearchExpressNo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShowPicture.resx">
+      <DependentUpon>ShowPicture.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShowRepeatItem.resx">
+      <DependentUpon>ShowRepeatItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdatePicPathUI.resx">
+      <DependentUpon>UpdatePicPathUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="20161207095903403_easyicon_net_48.ico" />
+    <Content Include="20161207095944789_easyicon_net_128.ico" />
+    <None Include="pic\apollo_130417_01.jpg" />
+    <None Include="Resources\Text.png" />
+    <None Include="Resources\Save.png" />
+    <None Include="Resources\Redo.png" />
+    <None Include="Resources\Rectangular.png" />
+    <None Include="Resources\Line.png" />
+    <None Include="Resources\Exit.png" />
+    <None Include="Resources\Ellipse.png" />
+    <None Include="Resources\Arrow.png" />
+    <None Include="Resources\Accept.png" />
+    <None Include="Resources\Accept.ico" />
+    <None Include="CaptureImageTool\Icons\Text.ico" />
+    <None Include="CaptureImageTool\Icons\Save.ico" />
+    <None Include="CaptureImageTool\Icons\Redo.png" />
+    <None Include="CaptureImageTool\Icons\Rectangular.ico" />
+    <None Include="CaptureImageTool\Icons\Line.ico" />
+    <None Include="CaptureImageTool\Icons\Exit.ico" />
+    <None Include="CaptureImageTool\Icons\Ellipse.ico" />
+    <None Include="CaptureImageTool\Icons\Arrow.ico" />
+    <None Include="CaptureImageTool\Icons\Accept.ico" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

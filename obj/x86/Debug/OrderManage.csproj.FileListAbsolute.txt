@@ -1,0 +1,3 @@
+D:\OrderManage\bin\Debug\OrderManage.exe.config
+D:\OrderManage\obj\x86\Debug\OrderManage.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\测试\OrderManage\bin\Debug\OrderManage.exe.config

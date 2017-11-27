@@ -1,0 +1,381 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="seqNum.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="side.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="shop.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="order.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="buyID.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="buyTime.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="sendTime.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="company.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="expressNo.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="province.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="shopName.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="seqNum.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="side.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="shop.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="order.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="buyID.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="buyTime.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="sendTime.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="company.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="expressNo.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="province.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="shopName.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="notifyIcon1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="notifyIcon1.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEANzAAAAEAIADoKgAAFgAAACgAAAA3AAAAYAAAAAEAIAAAAAAAQCkAAAAAAAAAAAAAAAAAAAAA
+        AAD30Wz/99Fs//bQa//30Wz/99Fs//fRbP/20Gv/99Fs//fRbP/30Wz/99Fs//bRa//30Wz/9tFs//fQ
+        bP/30Wz/9tBr//bQa//30Wz/99Fs//bQa//20Gv/9tFs//fRbP/30Wz/9tBr//bQbP/30Wz/99Fs//bR
+        bP/20Gz/99Fs//fRbP/30Wz/9tBr//bRbP/30Wz/99Fs//fRbP/30Wz/99Fs//bRbP/20Gz/99Br//fR
+        a//30Wz/99Fs//bRbP/20Gz/9tFr//fRbP/30Wz/9tBr//fRa//30Wz/99Fs//bQa//20Gv/99Fs//fR
+        bP/20Wv/9tBr//bRa//30Gz/99Fs//fRbP/20Gv/99Fs//fRbP/30Wz/99Fs//fRbP/20Wv/99Bs//bR
+        bP/20Gv/9tFr//fRbP/30Wz/99Fs//bQbP/30Wz/9tFs//fRbP/20Gv/99Fs//fRbP/30Wz/9tFs//bQ
+        bP/20Wz/9tBr//fRbP/30Wz/99Fr//bQbP/30Wz/9tBr//fRa//30Wv/99Fs//bQa//30Wz/99Fs//bR
+        a//30Wz/99Fs//bQa//30Gz/99Fs//fRbP/30Wz/9tBr//fQbP/30Gv/9tBr//bQbP/30Wz/9tFr//bQ
+        bP/30Wz/9tFr//bQa//30Wz/9tBr//fRbP/30Gv/9tBs//fRbP/30Wz/9tBs//bQa//20Gz/99Fs//fR
+        bP/20Gv/9tBr//bRa//30Wz/9tBr//fRbP/30Wz/99Fs//fRa//20Gv/9tFr//fRbP/30Wz/99Fs//bR
+        bP/30Wz/99Fs//fRbP/30Wz/99Fr//fRa//30Wz/99Fs//fRbP/20Wv/99Fs//fRbP/20Wz/99Fs//fR
+        bP/30Wz/99Fs//bQa//30Wz/99Fs//bQa//20Gv/99Fs//fRbP/30Wz/99Fs//bQa//30Wz/99Fs//bR
+        bP/30Wz/9tBr//fQa//30Wz/99Fs//bQa//20Wv/99Fs//fRbP/30Wz/9tFr//bQbP/30Wz/99Fs//bQ
+        bP/20Gz/99Fs//fRbP/20Wz/99Fs//bQa//30Wz/99Fs//fRbP/30Wz/9tBr//fRbP/20Gv/99Fs//fR
+        bP/30Wz/99Fs//fRbP/20Gz/99Fs//fRbP/30Wz/99Fs//fRbP/30Wz/99Fs//fRbP/20Gv/99Fr//bR
+        a//30Wz/9tBr//bQa//30Gz/99Fs//fQbP/20Gv/99Fs//bQa//30Wz/99Fs//bQa//20Wv/99Fs//fR
+        bP/20Wv/99Fs//bQa//30Wz/99Fs//bRa//30Wz/99Fs//fRbP/20Wz/99Fs//fRbP/30Wz/99Fs//bQ
+        a//20Wz/99Fs//bRbP/30Wz/99Fs//fRbP/20Wz/9tBs//bQa//30Wz/99Fs//fRbP/30Wz/9tBs//fR
+        bP/20Gz/99Fs//bQa//30Gv/99Fs//fRbP/20Gv/99Fs//bQa//30Wz/99Br//bQbP/30Wv/99Fs//fR
+        bP/20Gv/99Fs//fRbP/30Wz/99Bs//fRbP/30Wz/99Bs//fRbP/30Wz/9tFs//fQa//30Wz/99Fs//fR
+        bP/20Gz/99Fs//fRa//30Wz/9tFs//bQbP/30Wz/99Fs//fRbP/30Wz/9tBr//bQbP/30Wz/9tBr//fR
+        bP/20Gv/9tFs//fRbP/30Wv/99Fr//fRbP/30Wz/9tFs//fRbP/20Gv/99Fs//bRa//30Wz/99Fs//fR
+        bP/30Wz/9tBs//bQa//20Gv/99Fs//bQa//20Gz/9tBr//bQa//20Wz/9tBr//fRa//20Gz/99Fs//bQ
+        a//20Wv/9tBr//bRbP/30Wz/9tBr//bQbP/20Gv/9tBs//fRbP/30Wz/99Bs//bQbP/20Wv/9tBr//bR
+        bP/30Wz/99Fs//fRbP/20Gv/99Fs//bQa//30Wz/9tFs//fRbP/20Gv/99Fr//fRbP/30Wz/99Fs//fR
+        a//30Wz/99Fs//fRbP/30Wz/99Fr//fRbP/20Gv/99Fs//fQbP/30Wz/99Fs//bQbP/20Gv/9tFr//fR
+        bP/30Wv/9tFs//bQa//30Gv/99Fs//fRbP/30Wz/9tBr//bRbP/20Gz/99Fs//fRbP/20Wz/99Fr//fR
+        bP/20Wz/99Br//bQbP/30Wz/99Fs//bRbP/20Gz/99Fs//bQbP/20Wz/99Fs//bRbP/30Wz/9tFr//fR
+        bP/20Gv/99Fs//fRbP/30Wz/99Fs//fRbP/20Wz/9tBr//fRbP/20Gv/99Fs//fRbP/30Wz/9tBr//bR
+        bP/30Wz/99Fs//fRbP/30Wz/99Fs//fRbP/30Wz/9tBr//fRbP/30Wz/99Fs//bQa//30Wz/99Fs//fR
+        bP/30Wz/9tFr//fRbP/20Wz/99Bs//fRbP/20Gv/9tBr//fRbP/30Wz/9tBr//bQa//20Wz/99Fs//fR
+        bP/20Gv/9tBs//fRbP/30Wz/9tFs//bQbP/30Wz/99Fs//fRbP/20Gv/9tFs//fRbP/30Wz/99Fs//fR
+        bP/30Wz/9tFs//bQbP/30Gv/99Fr//fRbP/30Wz/9tFs//bQbP/20Wv/99Fs//fRbP/20Gv/99Fr//fR
+        bP/30Wz/9tBr//bQa//30Wz/99Fs//bRa//20Gv/9tFr//fQbP/30Wz/99Fs//bQa//30Wz/99Fs//fR
+        bP/30Wz/99Fs//bRa//30Gz/9tFs//bQa//20Wv/99Fs//fRbP/30Wz/9tBs//fRbP/20Wz/99Fs//bQ
+        a//30Wz/99Fs//fRbP/20Wz/9tBs//bRbP/20Gv/99Fs//fRbP/30Wv/9tBs//fRbP/20Gv/99Fr//fR
+        a//30Wz/9tBr//fRbP/30Wz/9tFr//fRbP/30Wz/9tBr//fQbP/30Wz/99Fs//fRbP/20Gv/99Bs//fQ
+        a//20Gv/9tBs//fRbP/20Wv/9tBs//fRbP/20Wv/9tBr//fRbP/20Gv/99Fs//fQa//20Gz/99Fs//fR
+        bP/20Gz/9tBr//bQbP/30Wz/99Fs//bQa//20Gv/9tFr//fRbP/20Gv/99Fs//fRbP/30Wz/99Fr//bQ
+        a//20Wv/99Fs//fRbP/30Wz/9tFs//fRbP/30Wz/99Fs//fRbP/30Wv/99Fr//fRbP/30Wz/99Fs//bR
+        a//30Wz/99Fs//bRbP/30Wz/99Fs//fRbP/30Wz/9tBr//fRbP/30Wz/9tBr//bQa//30Wz/99Fs//fR
+        bP/30Wz/9tBr//fRbP/30Wz/9tFs//fRbP/20Gv/99Br//fRbP/30Wz/9tBr//bRa//30Wz/99Fs//fR
+        bP/20Wv/9tBs//fRbP/30Wz/9tBs//bQbP/30Wz/99Fs//bRbP/30Wz/9tBr//fRbP/30Wz/99Fs//fR
+        bP/20Gv/99Fs//bQa//30Wz/99Fs//fRbP/30Wz/99Fs//bQbP/30Wz/99Fs//fRbP/30Wz/99Fs//fR
+        bP/30Wz/99Fs//bQa//30Wv/9tFr//fRbP/20Gv/9tBr//fQbP/30Wz/99Bs//bQa//30Wz/9tBr//fR
+        bP/30Wz/9tBr//bRa//30Wz/99Fs//bRa//30Wz/9tBr//fRbP/30Wz/9tFr//fRbP/30Wz/99Fs//bR
+        bP/30Wz/99Fs//fRbP/30Wz/9tBr//bRbP/30Wz/9tFs//fRbP/30Wz/99Fs//bRbP/20Gz/9tBr//fR
+        bP/30Wz/99Fs//fRbP/20Gz/99Fs//bQbP/30Wz/9tBr//fQa//30Wz/99Fs//bQa//30Wz/9tBr//fR
+        bP/30Gv/9tBs//fRa//30Wz/99Fs//bQa//30Wz/99Fs//fRbP/30Gz/99Fs//fRbP/30Gz/99Fs//fR
+        bP/20Wz/99Br//fRbP/30Wz/99Fs//bQbP/30Wz/99Fr//fRbP/20Wz/9tBs//fRbP/30Wz/99Fs//fR
+        bP/20Gv/9tBs//fRbP/20Gv/99Fs//bQa//20Wz/99Fs//fRa//30Wv/99Fs//fRbP/20Wz/99Fs//bQ
+        a//30Wz/9tFr//fRbP/30Wz/99Fs//fRbP/20Gz/9tBr//bQa//30Wz/9tBr//bQbP/20Gv/9tBr//bR
+        bP/20Gv/99Fr//bQbP/30Wz/9tBr//bRa//20Gv/9tFs//fRbP/20Gv/9tBs//bQa//20Gz/99Fs//fR
+        bP/30Gz/9tBs//bRa//20Gv/9tFs//fRbP/30Wz/99Fs//bQa//30Wz/9tBr//fRbP/20Wz/99Fs//bQ
+        a//30Wv/99Fs//fRbP/30Wz/99Fr//fRbP/30Wz/99Fs//fRbP/30Wv/99Fs//bQa//30Wz/99Bs//fR
+        bP/30Wz/9tBs//bQa//20Wv/99Fs//fRa//20Wz/9tBr//fQa//30Wz/99Fs//fRbP/20Gv/9tFs//bQ
+        bP/30Wz/99Fs//bRbP/30Wv/99Fs//bRbP/30Gv/9tBs//fRbP/30Wz/9tFs//bQbP/30Wz/9tBs//bR
+        bP/30Wz/9tFs//fRbP/20Wv/99Fs//bQa//30Wz/99Fs//fRbP/30Wz/99Fs//bRbP/20Gv/99Fs//bQ
+        a//30Wz/99Fs//fRbP/20Gv/9tFs//fRbP/30Wz/99Fs//fRbP/30Wz/99Fs//fRbP/20Gv/99Fs//fR
+        bP/30Wz/9tBr//fRbP/30Wz/99Fs//fRbP/20Wv/99Fs//bRbP/30Gz/99Fs//bQa//20Gv/99Fs//fR
+        bP/20Gv/9tBr//bRbP/30Wz/99Fs//bQa//20Gz/99Fs//fRbP/20Wz/9tBs//fRbP/30Wz/99Fs//bQ
+        a//20Wz/99Fs//fRbP/30Wz/99Fs//fRbP/20Wz/9tBs//fQa//30Wv/99Fs//fRbP/20Wz/9tBs//bR
+        a//30Wz/99Fs//bQa//30Wv/99Fs//fRbP/20Gv/9tBr//fRbP/30Wz/9c9s/7mfV/9HQTD/Qjwv/0pE
+        Mf/FqF3/9dBs//fRbP/30Wz/99Fs//fRbP/30Wz/9tFr//fQbP/20Wz/9tBr/9u7Y/+VgUv/9tBs//fR
+        bP/20Gz/99Fs//bRbP/30Wz/9tFr/+PDZv+ZhEz/Z1o6/0I9Lv9CPC//Qj0u/1JLM/+Jd0f/z7Ff//fR
+        a//20Gz/99Fs//bQa//30Wv/99Fr//fRbP/0zmz/0rNg//fRbP/20Wv/99Fs//fRbP/20Gv/99Bs//fR
+        bP/30Wz/99Fs//bQa//20Wv/99Bs//bQbP/10Gz/dGc+/yMkI/+HdkT/9tBs//bQbP/30Gz/9tBr//bQ
+        a//30Wz/99Br//bQbP/30Wz/99Bs/+XEZv9ORzL/JScj/6mRUf/20Wv/9tBr//bQa//20Wv/99Fs//bQ
+        a//20Gz/9tBs//LNa/+LeUf/JCQk/1hONf/kwWX/9tBs//bQbP/20Wz/99Fs//fRbP/30Wz/99Fs//fR
+        a//20Gv/tZtU/2VaOv/1z2v/9tFr//fRbP/30Wz/9tFs//fRbP/30Wz/99Fs//fRbP/20Gv/6sZo/6GL
+        Tv+Sfkj/1bZh/7adVv8jJCP/yaxb/9GyYP+QfUj/o41O/+vIaP/20Gz/99Fs//bQa//30Gv/9tBr/+TB
+        Zv9SSzT/JCMj/yMkI/8qKSb/qpNR//bQa//30Gz/99Fs//fRbP/30Gz/9tBs/+PBZf/gvmT/8c1r/1FJ
+        M//aumD/5sVm/929Yv/0z2v/9tBs//bQa//30Wz/9tBr//fRbP/20Wv/4sBl/z05Lf8lJST/qpJR//bQ
+        a//30Gz/99Fs//fRbP/30Wz/99Fs//fRbP/30Wz/8ctp/1VMNP8jJCP/JCMk/zAuJ/+PfEf/JCQk/5qG
+        TP8tKyb/JCQj/yMkI/9bUjb/8s1q//fRbP/20Gv/99Bs/9q5Yf9FQS//IyMk/yQkJP8jIyP/JCMk/yko
+        JP+dh0z/9c9s//bQbP/30Wz/9tBr/5iES/8sKyX/KSgl/3JkP/+kjk//qpNR/zAuJ/8oJiT/bF88//PM
+        av/30Wz/9tFs//bQbP/20Gv/58Rm/1BIM/8jJCP/JCMk/y0rJ/+7oVj/9tBs//bQbP/20Gv/99Br//fR
+        bP/30Wz/9tBr/8KmWv8kIyT/JCQk/yMjI/8kJCP/JCQj/yQkI/8kJCP/JCMj/yQkJP8kJCT/IyQk/8ms
+        Xf/30Wz/99Bs/9a2Yf87Nyv/JCQj/yQkJP8jIyP/JCQk/yQkJP8kJCP/JSUk/498Sf/10Gz/9tFr/+jG
+        Zv8tLCb/JCMk/yQkJP8kJCT/WVA0/ykpJf8jIyT/JCQk/yMkJP+8oVj/9tBr//fRa//20Wv/4L9k/1FI
+        Mv8kJCP/JCQk/yQkJP8kJCT/LSwn/7CXVP/20Gv/9tBr//fRbP/30Wz/99Fs//bQbP/Cplr/IyQj/yQk
+        JP8jIyP/JCMk/yQjJP8kJCP/JCQj/yQjJP8jIyP/IyMj/yMkI//KrV3/9tFr/+rHaP9DPi7/JCMk/yMj
+        I/8jIyP/IyMj/yQkJP8kJCT/JCQk/yMjI/8kJCT/pY9Q//bQa//jwWb/KSgl/yQjJP8kJCT/IyMj/yQk
+        JP8kJCT/JCQk/yMjI/8jJCP/t51W//bRa//1z2v/uZ9X/zs3Kv8kJCT/IyMj/yQkJP8kJCT/JCQk/yMj
+        I/8nJyT/hnVE/+rHaP/30Gz/99Fs//fRbP/20Gz/78tp/1NLNP8jJCP/JCQj/ywrJv9mWjn/IyQi/29i
+        Pf8rKSb/JCQj/yQkI/9ZUDb/8s1q//bQbP+Yg0z/IyQk/yQkJP8kJCT/JCQk/yMjI/8kJCT/JCQk/yQk
+        JP8jIyP/IyMk/zQzKP/tymn/9tBr/2daOf8kJCP/JCQk/yQkJP8kJCT/JCQk/yQkJP8kJCP/QDst/+3I
+        aP/20Wv/48Fm/21gO/8lJCP/JCQj/yQkJP8kJCT/JCQk/yMjI/8kIyP/IyQk/0M+Lv+/o1j/9tBs//fR
+        bP/30Wz/99Fs//bQa//syGn/n4lO/498Sf/Dp1r/QDst/yQkJP9JQi//x6pb/457SP+hi0//7clp//fQ
+        bP/20Gv/XFI2/yMkI/8kJCT/JCQk/yMjI/8jIyP/JCQk/yQkJP8kJCT/IyMj/yMjI/8kJCT/v6RZ//bR
+        a//lwmX/TUcx/yQjJP8kJCT/IyMj/yQkJP8kJCP/NDEp/8+wXv/30Wz/99Fs//bRbP/10Gz/qJFR/ysq
+        J/8kJCP/JCQk/yQkJP8jJCP/IyQj/2peO//rx2j/9tBr//fRa//30Wz/99Fs//bQa//20Gv/99Bs//bQ
+        bP/20Gv/ZVo6/yQkI/8kJCT/JCMk/3NmP//20Gz/9tFr//fRbP/30Wz/9tBr/1JKM/8jJCP/JCQk/yQk
+        JP8jIyP/IyMj/yMkI/8jIyT/JCQk/yMjI/8kJCT/JCQk/7abVf/30Gz/9tBr/+nGZ/9hVjj/IyQj/yMj
+        I/8kJCP/OTYr/86wX//20Gv/99Fr//bQbP/30Wz/9tBr//XRa/+8oVf/Liwm/yQkI/8kJCT/JCQj/3lp
+        P//yzWr/99Bs//bQa//30Gz/99Fs//fRbP/30Wz/9tBr//fQbP/30Gv/68do/ywrJv8kJCT/IyMj/yMj
+        I/84NCr/8s1q//bQa//30Wz/9tBr//bRa/+Id0X/IyQj/yMjJP8kJCT/IyMj/yQkI/80MCf/IyQj/yQk
+        JP8jIyP/JCQj/ywqJv/iwGX/99Br//fRbP/20Gv/7spp/1tSNv8kJCP/NDEo/9GzX//30Wz/99Fs//bR
+        bP/30Wz/99Fs//fRbP/30Wz/9tBr/7edVf8oKCT/IyMk/25hPf/zzWr/99Bs//fRbP/20Wz/99Fs//fR
+        bP/30Wz/99Fs//bQa//30Wz/99Fs//HMav8+Oiz/IyQj/yQkJP8kIyT/TEUx//XPav/30Wz/99Fs//bR
+        bP/30Wz/6cZm/1JLM/8kJCT/IyQj/yQkJP92aD//yqxd/zg1Kv8jJCP/JCMj/ykoJf+ijFD/9tBs//bQ
+        bP/20Gz/99Fs//bQbP/dvGT/MTAp/62UUv/30Wz/99Fs//fRbP/30Wz/9tBr//fRbP/20Gv/99Fs//fR
+        bP/20Gz/h3VF/0I9Lf/qx2f/99Fs//fRbP/30Wz/99Fs//fRbP/30Wz/99Fs//fRbP/20Gv/99Fr//bR
+        a//20Gz/s5tU/zEuJ/8jIyT/NTEp/8GmWv/20Gv/99Fs//bQa//30Wz/99Fs//bQa//vy2n/sZhU/56I
+        Tf++o1n/9M9r//bQa//lwmb/p5FR/6CKTv/Ss2D/9tBs//fRbP/20Wz/99Fs//fRbP/30Wz/9tBr/5SB
+        Sf/yzWv/99Fs//bRbP/30Wz/99Fs//fRbP/20Wz/9tBs//bQa//30Wz/99Fs/+nGZ/+tlFL/9tBr//fR
+        bP/20Gz/99Fs//bQa//30Gv/99Fs//fRbP/20Gv/99Fs//bQa//30Wz/99Br//bRa//jwWX/xqhc/+fE
+        Z//20Gv/99Fs//fRbP/30Wz/99Bs//fRbP/30Wz/99Bs//fRbP/30Wz/9tFs//fQa//30Wz/99Fs//fR
+        bP/20Gz/99Fs//fRa//30Wz/9tFs//bQbP/30Wz/99Fs//fQbP/xzGv/9tBr//bQbP/30Wz/9tBr//fR
+        bP/20Gv/9tFs//fRbP/30Wv/99Fr//fRbP/30Gv/889r//fRbP/20Gv/99Fs//bRa//30Wz/99Fs//fR
+        bP/30Wz/9tBs//bQa//20Gv/99Fs//bQa//20Gz/9tBr//bQa//20Wz/9tBr//fRa//20Gz/99Fs//bQ
+        a//20Wv/9tBr//bRbP/30Wz/9tBr//bQbP/20Gv/9tBs//fRbP/30Wz/99Bs//bQbP/20Wv/9tBr//bR
+        bP/30Wz/99Fs//fRbP/20Gv/99Fs//bQa//30Wz/9tFs//fRbP/20Gv/99Fr//fRbP/30Wz/99Fs//fR
+        a//30Wz/99Fs//fRbP/30Wz/99Fr//fRbP/20Gv/99Fs//fQbP/30Wz/99Fs//bQbP/20Gv/9tFr//fR
+        bP/30Wv/9tFs//bQa//30Gv/99Fs//fRbP/30Wz/9tBr//bRbP/20Gz/99Fs//fRbP/20Wz/99Fr//fR
+        bP/20Wz/99Br//bQbP/30Wz/99Fs//bRbP/20Gz/99Fs//bQbP/20Wz/99Fs//bRbP/30Wz/9tFr//fR
+        bP/20Gv/99Fs//fRbP/30Wz/99Fs//fRbP/20Wz/9tBr//fRbP/20Gv/99Fs//fRbP/30Wz/9tBr//bR
+        bP/30Wz/99Fs//fRbP/30Wz/99Fs//fRbP/30Wz/9tBr//fRbP/30Wz/99Fs//bQa//30Wz/99Fs//fR
+        bP/30Wz/9tFr//fRbP/20Wz/99Bs//fRbP/20Gv/9tBr//fRbP/30Wz/9tBr//bQa//20Wz/99Fs//fR
+        bP/20Gv/9tBs//fRbP/30Wz/9tFs//bQbP/30Wz/99Fs//fRbP/20Gv/9tFs//fRbP/30Wz/99Fs//fR
+        bP/30Wz/9tFs//bQbP/30Gv/99Fr//fRbP/30Wz/9tFs//bQbP/20Wv/99Fs//fRbP/20Gv/99Fr//fR
+        bP/30Wz/9tBr//bQa//30Wz/99Fs//bRa//20Gv/9tFr//fQbP/30Wz/99Fs//bQa//30Wz/99Fs//fR
+        bP/30Wz/99Fs//bRa//30Gz/9tFs//bQa//20Wv/99Fs//fRbP/30Wz/9tBs//fRbP/20Wz/99Fs//bQ
+        a//30Wz/99Fs//fRbP/20Wz/9tBs//bRbP/20Gv/99Fs//fRbP/30Wv/9tBs//fRbP/20Gv/99Fr//fR
+        a//30Wz/9tBr//fRbP/30Wz/9tFr//fRbP/30Wz/9tBr//fQbP/30Wz/99Fs//fRbP/20Gv/99Bs//fQ
+        a//20Gv/9tBs//fRbP/20Wv/9tBs//fRbP/20Wv/9tBr//fRbP/20Gv/99Fs//fQa//20Gz/99Fs//fR
+        bP/20Gz/9tBr//bQbP/30Wz/99Fs//bQa//20Gv/9tFr//fRbP/20Gv/99Fs//fRbP/30Wz/99Fr//bQ
+        a//20Wv/99Fs//fRbP/30Wz/9tFs//fRbP/30Wz/99Fs//fRbP/30Wv/99Fr//fRbP/30Wz/99Fs//bR
+        a//30Wz/99Fs//bRbP/30Wz/99Fs//fRbP/30Wz/9tBr//fRbP/30Wz/9tBr//bQa//30Wz/99Fs//fR
+        bP/30Wz/9tBr//fRbP/30Wz/9tFs//fRbP/20Gv/99Br//fRbP/30Wz/9tBr//bRa//30Wz/99Fs//fR
+        bP/20Wv/9tBs//fRbP/30Wz/9tBs//bQbP/30Wz/99Fs//bRbP/30Wz/9tBr//fRbP/30Wz/99Fs//fR
+        bP/20Gv/99Fs//bQa//30Wz/99Fs//fRbP/30Wz/99Fs//bQbP/30Wz/99Fs//fRbP/30Wz/99Fs//fR
+        bP/30Wz/99Fs//bQa//30Wv/9tFr//fRbP/20Gv/9tBr//fQbP/30Wz/99Bs//bQa//30Wz/9tBr//fR
+        bP/30Wz/9tBr//bRa//30Wz/99Fs//bRa//30Wz/9tBr//fRbP/30Wz/9tFr//fRbP/30Wz/99Fs//bR
+        bP/30Wz/99Fs//fRbP/30Wz/9tBr//bRbP/30Wz/9tFs//fRbP/30Wz/99Fs//bRbP/20Gz/9tBr//fR
+        bP/30Wz/99Fs//fRbP/20Gz/99Fs//bQbP/30Wz/9tBr//fQa//30Wz/99Fs//bQa//30Wz/9tBr//fR
+        bP/30Gv/9tBs//fRa//30Wz/99Fs//bQa//30Wz/99Fs//fRbP/30Gz/99Fs//fRbP/30Gz/99Fs//fR
+        bP/20Wz/99Br//fRbP/30Wz/99Fs//bQbP/30Wz/99Fr//fRbP/20Wz/9tBs//fRbP/30Wz/99Fs//fR
+        bP/20Gv/9tBs//fRbP/20Gv/99Fs//bQa//20Wz/99Fs//fRa//30Wv/99Fs//fRbP/20Wz/99Fs//bQ
+        a//30Wz/9tFr//fRbP/30Wz/99Fs//fRbP/20Gz/9tBr//bQa//30Wz/9tBr//bQbP/20Gv/9tBr//bR
+        bP/20Gv/99Fr//bQbP/30Wz/9tBr//bRa//20Gv/9tFs//fRbP/20Gv/9tBs//bQa//20Gz/99Fs//fR
+        bP/30Gz/9tBs//bRa//20Gv/9tFs//fRbP/30Wz/99Fs//bQa//30Wz/9tBr//fRbP/20Wz/99Fs//bQ
+        a//30Wv/99Fs//fRbP/30Wz/99Fr//fRbP/30Wz/99Fs//fRbP/30Wv/99Fs//bQa//30Wz/99Bs//fR
+        bP/30Wz/9tBs//bQa//20Wv/99Fs//fRa//20Wz/9tBr//fQa//30Wz/99Fs//fRbP/20Gv/9tFs//bQ
+        bP/30Wz/99Fs//bRbP/30Wv/99Fs//bRbP/30Gv/9tBs//fRbP/30Wz/9tFs//bQbP/30Wz/9tBs//bR
+        bP/30Wz/9tFs//fRbP/20Wv/99Fs//bQa//30Wz/99Fs//fRbP/30Wz/99Fs//bRbP/20Gv/99Fs//bQ
+        a//30Wz/99Fs//fRbP/20Gv/9tFs//fRbP/30Wz/99Fs//fRbP/30Wz/99Fs//fRbP/20Gv/99Fs//fR
+        bP/30Wz/9tBr//fRbP/30Wz/99Fs//fRbP/20Wv/99Fs//bRbP/30Gz/99Fs//bQa//20Gv/99Fs//fR
+        bP/20Gv/9tBr//bRbP/30Wz/99Fs//bQa//20Gz/99Fs//fRbP/20Wz/9tBs//fRbP/30Wz/99Fs//bQ
+        a//20Wz/99Fs//fRbP/30Wz/99Fs//fRbP/20Wz/9tBs//fQa//30Wv/99Fs//fRbP/20Wz/9tBs//bR
+        a//30Wz/99Fs//bQa//30Wv/99Fs//fRbP/20Gv/9tBr//fRbP/30Wz/9tFr//bQa//20Wv/99Bs//fR
+        bP/30Wz/9tBr//fRbP/30Wz/99Fs//fRbP/30Wz/9tFr//fQbP/20Wz/9tBr//bRa//30Wz/99Fs//fR
+        bP/20Gz/99Fs//bRbP/30Wz/9tBr//fRbP/30Wz/99Fs//bRbP/20Gz/9tFs//bQa//30Wz/99Fs//fR
+        a//20Gz/99Fs//bQa//30Wv/99Fr//fRbP/20Gv/99Fs//fRbP/20Wv/99Fs//fRbP/20Gv/99Bs//fR
+        bP/30Wz/99Fs//bQa//30Gz/99Br//bQa//20Gz/99Fs//bRa//20Gz/99Fs//bRa//20Gv/99Fs//bQ
+        a//30Wz/99Br//bQbP/30Wz/99Fs//bQbP/20Gv/9tBs//fRbP/30Wz/9tBr//bQa//20Wv/99Fs//bQ
+        a//30Wz/99Fs//fRbP/30Wv/9tBr//bRa//30Wz/99Fs//fRbP/20Wz/99Fs//fRbP/30Wz/99Fs//fR
+        a//30Wv/99Fs//fRbP/30Wz/9tFr//fRbP/30Wz/9tFs//fRbP/30Wz/99Fs//fRbP/20Gv/99Fs//fR
+        bP/20Gv/9tBr//fRbP/30Wz/99Fs//fRbP/20Gv/99Fs//fRbP/20Wz/99Fs//bQa//30Gv/99Fs//fR
+        bP/20Gv/9tFr//fRbP/30Wz/99Fs//bRa//20Gz/99Fs//fRbP/20Gz/9tBs//fRbP/30Wz/9tFs//fR
+        bP/20Gv/99Fs//fRbP/30Wz/99Fs//bQa//30Wz/9tBr//fRbP/30Wz/99Fs//fRbP/30Wz/9tBs//fR
+        bP/30Wz/99Fs//fRbP/30Wz/99Fs//fRbP/30Wz/9tBr//fRa//20Wv/99Fs//bQa//20Gv/99Bs//fR
+        bP/30Gz/9tBr//fRbP/20Gv/99Fs//fRbP/20Gv/9tFr//fRbP/30Wz/9tFr//fRbP/20Gv/99Fs//fR
+        bP/20Wv/99Fs//fRbP/30Wz/9tFs//fRbP/30Wz/99Fs//fRbP/20Gv/9tFs//fRbP/20Wz/99Fs//fR
+        bP/30Wz/9tFs//bQbP/20Gv/99Fs//fRbP/30Wz/99Fs//bQbP/30Wz/9tBs//fRbP/20Gv/99Br//fR
+        bP/30Wz/9tBr//fRbP/20Gv/99Fs//fQa//20Gz/99Fr//fRbP/30Wz/9tBr//fRbP/30Wz/99Fs//fQ
+        bP/30Wz/99Fs//fQbP/30Wz/99Fs//bRbP/30Gv/99Fs//fRbP/30Wz/9tBs//fRbP/30Wv/99Fs//bR
+        bP/20Gz/99Fs//fRbP/30Wz/99Fs//bQa//20Gz/99Fs//bQa//30Wz/9tBr//bRbP/30Wz/99Fr//fR
+        a//30Wz/99Fs//bRbP/30Wz/9tBr//fRbP/20Wv/99Fs//fRbP/30Wz/99Fs//bQbP/20Gv/9tBr//fR
+        bP/20Gv/9tBs//bQa//20Gv/9tFs//bQa//30Wv/9tBs//fRbP/20Gv/9tFr//bQa//20Wz/99Fs//bQ
+        a//20Gz/9tBr//bQbP/30Wz/99Fs//fQbP/20Gz/9tFr//bQa//20Wz/99Fs//fRbP/30Wz/9tBr//fR
+        bP/20Gv/99Fs//bRbP/30Wz/9tBr//fRa//30Wz/99Fs//fRbP/30Wv/99Fs//fRbP/30Wz/99Fs//fR
+        a//30Wz/9tBr//fRbP/30Gz/99Fs//fRbP/20Gz/9tBr//bRa//30Wz/99Fr//bRbP/20Gv/99Br//fR
+        bP/30Wz/99Fs//bQa//20Wz/9tBs//fRbP/30Wz/9tFs//fRa//30Wz/9tFs//fQa//20Gz/99Fs//fR
+        bP/20Wz/9tBs//fRbP/20Gz/9tFs//fRbP/20Wz/99Fs//bRa//30Wz/9tBr//fRbP/30Wz/99Fs//fR
+        bP/30Wz/9tFs//bQa//30Wz/9tBr//fRbP/30Wz/99Fs//bQa//20Wz/99Fs//fRbP/30Wz/99Fs//fR
+        bP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
+</value>
+  </data>
+  <metadata name="timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>135, 17</value>
+  </metadata>
+</root>
